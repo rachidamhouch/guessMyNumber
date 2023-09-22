@@ -1,0 +1,100 @@
+body{
+    display: flex;
+    height: 97vh;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Press Start 2P', cursive;
+}
+h2{
+    text-align: center;
+}
+h1{
+    font-size: 3rem;
+}
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+}
+.container{
+    height: 50vh;
+    border: 5px solid white;
+    width: 500px;
+    border-radius: 5px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.level
+{
+    display: block;
+    width: 90%;
+    height: 50px;
+    background-color: black;
+    border: 5px white solid;
+    border-radius: 5px;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    margin: 10px;
+}
+.again, .check{
+    width: 80%;
+    height: 50px;
+    background-color: black;
+    border: 5px white solid;
+    border-radius: 5px;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    margin: 10px;
+}
+.part1{
+    height: 50vh;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    background-color: black;
+}
+
+.part2{
+    height: 50vh;
+    width: 500px;
+    border-radius: 5px;
+    padding: 30px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.score{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+.s1, .s2, .result{
+    margin: 10px;
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+input[type="number"]{
+    width: 80%;
+    height: 40px;
+    margin: 10px;
+    font-size: 2rem;
+    border-radius: 5px;
+}
+.result{
+    text-align: center;
+}
